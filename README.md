@@ -51,7 +51,7 @@ Receive and analyze data and send answers to this data to the application.
 
 ## Software design
 
- <img  src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/MCC%20Project-MCC%20project.png"> </img>
+ <img width="800" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/MCC%20Project-MCC%20project.png"> </img>
 
 ## Screenshots
 
