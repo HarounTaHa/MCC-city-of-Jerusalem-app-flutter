@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mcc-final-project-fb4f6",
+  "private_key_id": "67dd8538ae010eeabf16f92ebc72a2320f6f5499",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCETXeKTmf+bbhJ\np4g82Wh25rKFrVoxFXGdCpSwnieZI6ckHoWsBl5fwbwEEceO0SlxPXWm690zz24s\n45lMqd002f98bZkl5u2Thou7olH6gWyFrXYS86W7d0W3Vkll/naHuGNi546xfVDU\njow0iqEr07yoBsGoXGLRnTmRa76hImiNeoLd228IHN8CCmUJHHOmcUWhc7aRsM1h\nzsrvBTIFpB3Lc92Bb9gvo0SYGTHJcQJSJt+MWhhYIea35j2lbbk9KxPYZPEsDrGJ\nrOxkplhlZtgAxJ9qyQYWcf0ugMioOeameyOjF9qbchE76VrszlQ2TYB4ELbcHWH3\napr6AfYBAgMBAAECggEAAaq/NZco0MgdoRHzEb80hYEBIVWOlB0+zfl+553Khm+w\nULBwwzreUAsPHScDMm24vbRGSfjhU+CKdRbWDOT8BEk14qG34wYemrQAiTfxm/wq\n+6E0omb/ANZvIrD74kTbRfkBCZM81Ugsr0zvf876WmTD1QMmyAIH/bejLM2kfH+/\nmbeuFEkNNtQ9BzJWCo1DJynvU/ODpvNYxuAxLjGLtXDcRy1MoyTXP3Qrg3sbrs+i\nxQT3kvJajsN20IY0xZFqscwG7CQjpDIT5R/R/+x4di87a7eagKwhqRMzBd7NQG4I\nsD0e8MrT6lnb4HFcKnC3mrPJ74arfeggAWdyu35vNQKBgQC5QdOcFTIuunehhRtH\nR7kPTxCU4Greb/g1qkXTt6+66hPKODf2Mj16FSTZGDPrzneIp0pxoWDkjKNG170G\nmLrUHhZE7hh6Punt/GTtZleWJyKXXZFHqFqKXwBJLbSqwUfgYUOQ3xofJh8Yu4Us\nOkX27SluRumtOh5iPu1KRBxTVQKBgQC20vd+Fb0D4tudnV+Uhz4gPLBKe3vUf/fE\nNqdAugPh6gQ03xZy1iPoW+8LlCoMG+SZ8GMun22dKm6OhJ7ua23pUWQbDQB/0CqM\ndeKof9QGoeDbqe+czwX6/messi8NobjdzjpiqWawAnQmXl7g3dEgx24flI8fJ8+/\ndbG+edsv/QKBgGm7ZCbFAishSX3qFjOMf9Z47aHKo7Poe+VFFS1MvQMU7c6QX4Ao\nFGZFAw7UfW2sHRTlRdusmzxV+CpKnxvQt3Cw60zUByxeE+08C+5iZsLP+zIguPYI\n5APtTKB3cZGzVm59lK5uZt44R6859zvS1nOjz+2ck2nGreisuYmVbgUxAoGAYizt\n/IY95y1Wk9AjuIXbpcIRRR4EhDtn2LUkoYyCczmQore9vVMjGy7rMkORRMlhvAyr\npii02zYjAmNTWWLVNfqgECquPvSRNLZFTgi+2gTp0+vwoTtG0d7123Yf8GkM9gc9\nsSeY3iGjL8tzlbtoBvsxNsI3DRr646yXE1sqih0CgYAkLeTVyyyculjEkUmwm4D7\nhA+s80R09omEFX0awZx5ddwJl/RQlY3nMg8ZHmN4uPw+S7YUi/IfjbLYVTM4g6I4\nFi8VQsWdsavqinRLQVuKNmH8fPcrgg/P/62bJZBEwp2WcNb9n4O/DozW2paindlX\nZrv6Qj+e8wIs5hpZ9qaJjA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-app-jerusalem-proje@mcc-final-project-fb4f6.iam.gserviceaccount.com",
+  "client_id": "111610067276585962489",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-app-jerusalem-proje%40mcc-final-project-fb4f6.iam.gserviceaccount.com"
+}

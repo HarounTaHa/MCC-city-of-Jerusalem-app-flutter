@@ -23,16 +23,30 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   firebase_core: "^0.7.0"
   cloud_firestore: "^0.16.0+1"
   chewie: ^1.0.0
   pie_chart: ^5.0.0
   foldable_sidebar: ^1.0.0
+  http: ^0.12.0+2
+  provider: ^4.3.2+3
+  stream_chat_flutter: ^1.5.4
+  bubble:
+  intl:
+  flutter_dialogflow:
+
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_ibm_watson: ^0.0.4
+  audioplayers: ^0.16.0
+  url_launcher:
+  font_awesome_flutter:
+
+
 
 dev_dependencies:
   flutter_test:

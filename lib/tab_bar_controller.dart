@@ -1,8 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:mcc_final_project/statistics_screen.dart';
 import 'package:mcc_final_project/widget/appbar.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'communication_screen.dart';
 import 'home_screen.dart';
@@ -42,9 +44,19 @@ class _TabState extends State<TabBarController> {
                     child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    CircleAvatar(
-                      radius: 50.0,
-                    ),
+                    Container(
+                        width: 100,
+                        height: 100,
+                        alignment: FractionalOffset.centerLeft,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                              'https://avatars.githubusercontent.com/u/33500954?v=4',
+                            ),
+                            fit: BoxFit.cover,
+                          ),
+                        )),
                     SizedBox(
                       height: 10.0,
                     ),
@@ -61,45 +73,65 @@ class _TabState extends State<TabBarController> {
                     child: ListView(
                   children: [
                     ListTile(
-                      onTap: () {
-                        setState(() {
-                          value == 0 ? value = 1 : value = 0;
-                        });
+                      onTap: () async {
+                        // setState(() {
+                        //   value == 0 ? value = 1 : value = 0;
+                        // });
+                        var url = "https://github.com/HarounTaHa";
+                        if (await canLaunch(url)) {
+                          await launch(url);
+                        } else {
+                          throw "لا نستطيع تحميل الصفحة";
+                        }
                       },
-                      leading: Icon(
-                        Icons.home,
-                        color: Colors.white,
+                      leading: FaIcon(
+                        FontAwesomeIcons.github,
+                        size: 45,
+                        color: Colors.black87,
                       ),
                       title: Text(
-                        "Home",
-                        style: TextStyle(color: Colors.white),
+                        "Github",
+                        style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
                     ListTile(
-                      onTap: () {},
-                      leading: Icon(
-                        Icons.person,
-                        color: Colors.white,
+                      onTap: () async {
+                        var url =
+                            "https://www.linkedin.com/in/haroun-th-443a7b1a7/";
+                        if (await canLaunch(url)) {
+                          await launch(url);
+                        } else {
+                          throw "لا نستطيع تحميل الصفحة";
+                        }
+                      },
+                      leading: FaIcon(
+                        FontAwesomeIcons.linkedinIn,
+                        size: 45,
+                        color: Colors.black87,
                       ),
                       title: Text(
-                        "Profile",
-                        style: TextStyle(color: Colors.white),
+                        "LinkedIn",
+                        style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
                     ListTile(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => StatisticsScreen()));
+                      onTap: () async {
+                        var url =
+                            "https://www.facebook.com/profile.php?id=100018885374274";
+                        if (await canLaunch(url)) {
+                          await launch(url);
+                        } else {
+                          throw "لا نستطيع تحميل الصفحة";
+                        }
                       },
-                      leading: Icon(
-                        Icons.settings,
-                        color: Colors.white,
+                      leading: FaIcon(
+                        FontAwesomeIcons.facebook,
+                        size: 45,
+                        color: Colors.black87,
                       ),
                       title: Text(
-                        "Statistics",
-                        style: TextStyle(color: Colors.white),
+                        "Facebook",
+                        style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                     ),
                   ],
@@ -118,9 +150,9 @@ class _TabState extends State<TabBarController> {
                 return (Transform(
                   alignment: Alignment.center,
                   transform: Matrix4.identity()
-                    ..setEntry(3, 2, 0.001)
-                    ..setEntry(0, 3, 200 * val.toDouble())
-                    ..rotateY((pi / 6) * val.toDouble()),
+                    ..setEntry(2, 2, 0.001)
+                    ..setEntry(0, 3, -200 * val.toDouble())
+                    ..rotateX((pi / 6) * val.toDouble()),
                   child: Scaffold(
                     appBar: AppBar(
                       backgroundColor: Color.fromRGBO(254, 180, 14, 1),
@@ -148,12 +180,6 @@ class _TabState extends State<TabBarController> {
                                 });
                               },
                             ),
-                      actions: <Widget>[
-                        IconButton(
-                          icon: Icon(Icons.notifications),
-                          onPressed: () {},
-                        )
-                      ],
                     ),
                     body: _children[_currentIndex],
                     bottomNavigationBar: BottomNavigationBar(
@@ -165,7 +191,7 @@ class _TabState extends State<TabBarController> {
                           icon: Icon(Icons.home_outlined,
                               color: Color.fromRGBO(254, 190, 14, 1)),
                           title: Text(
-                            'Home',
+                            'الرئيسية',
                             style: TextStyle(color: Colors.black),
                           ),
                         ),
@@ -174,13 +200,13 @@ class _TabState extends State<TabBarController> {
                             Icons.assessment_outlined,
                             color: Color.fromRGBO(254, 190, 14, 1),
                           ),
-                          title: Text('Analytics',
+                          title: Text('الاحصائيات',
                               style: TextStyle(color: Colors.black)),
                         ),
                         BottomNavigationBarItem(
                           icon: Icon(Icons.email_outlined,
                               color: Color.fromRGBO(254, 190, 14, 1)),
-                          title: Text('Messages',
+                          title: Text('التواصل',
                               style: TextStyle(color: Colors.black)),
                         )
                       ],
