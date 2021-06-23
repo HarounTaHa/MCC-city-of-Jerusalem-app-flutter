@@ -48,3 +48,61 @@ Receive and analyze data and send answers to this data to the application.
 - _Adapt the text-to-speech_ service provided by the IBM cloud when answering from a Chabot screen.
 - _Search_ for and find any new news.
 - _Links_ to view more Websites about the city Jerusalem.
+
+## Screenshots
+
+
+<table> 
+  <th>Light Mode</th>
+  <tr>
+    <td> 
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_1.jpg"> </img>
+    </td>
+    <td>
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_2.jpg"> 
+  </img> 
+    </td>
+    <td> 
+        <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_2_1.jpg"> 
+  </img>
+    </td>
+  </tr>
+  
+  <tr>
+     <td>
+       <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_3.jpg"> 
+  </img>
+    </td>
+    <td>
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_3_1.jpg">
+    </td>
+    <td> 
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_4.jpg">
+    </td>
+  </tr>
+    <tr>
+    <td> 
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_5.jpg"> </img>
+    </td>
+    <td>
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_6.jpg"> 
+  </img> 
+    </td>
+    <td> 
+        <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_7.jpg"> 
+  </img>
+    </td>
+  </tr>
+    <tr>
+    <td> 
+      <img width="250" src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/Screenshot_8.jpg"> </img>
+    </td>
+    </tr>
+</table>
+
+## Socials
+
+If you have any questions, you can reach me here:
+
+- Instagram: [@hero.o_8088](https://www.instagram.com/hero.o_8088/)
+- Email: harountaha@outlook.sa
