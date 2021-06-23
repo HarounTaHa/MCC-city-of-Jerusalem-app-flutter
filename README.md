@@ -49,6 +49,10 @@ Receive and analyze data and send answers to this data to the application.
 - _Search_ for and find any new news.
 - _Links_ to view more Websites about the city Jerusalem.
 
+## Software design
+
+ <img  src="https://github.com/HarounTaHa/MCC-city-of-Jerusalem-app-flutter/blob/master/screenshots/MCC%20Project-MCC%20project.png"> </img>
+
 ## Screenshots
 
 
